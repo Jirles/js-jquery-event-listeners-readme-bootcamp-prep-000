@@ -9,8 +9,8 @@ function getIt(){
 }
 
 function frameIt(){
-  return $('img').on('load', function(e){
-    return e.addClass('tasty');
+  return $('img').on('load', function(){
+    return $('img').addClass('tasty');
   });
 }
 
