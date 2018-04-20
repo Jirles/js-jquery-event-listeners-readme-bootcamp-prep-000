@@ -1,4 +1,4 @@
-//define functions here
+// define functions here
 
 $(document).ready(function(){
 
